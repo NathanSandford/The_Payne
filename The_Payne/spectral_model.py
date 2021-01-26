@@ -1,7 +1,5 @@
 # code for predicting the spectrum of a single star in normalized space.
-from __future__ import absolute_import, division, print_function # python2 compatibility
 import numpy as np
-from . import utils
 
 def leaky_relu(z):
     '''
